@@ -5,7 +5,7 @@ import time
 
 
 st.logo('images/icon_menu.png')
-st.sidebar.image('images/eli.jpg', caption='Eliane Ferreira')
+st.sidebar.image('eli.png', caption='Eliane Ferreira')
 st.header('CONHEÇA MAIS SOBRE NOSSOS PRODUTOS', divider=True)
 # st.toggle('ATIVAR')
 
