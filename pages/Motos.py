@@ -11,7 +11,7 @@ st.subheader('👈 Selecione uma das opções no menu lateral', divider=True)
 
 def moto():
     motos = st.sidebar.radio('Modelos disponiveis', ['CROSSER 150', 'FACTOR 150', 'FZ 15 CONNECTED', 'FZ 25 CONNECTED',
-                                                   'LANDER CONNECTED', 'MT 07', 'MT 09', 'NMAX 160 CONNECTED', 'NEOS', 'R 3 ABS','R 15 ABS', 'TRACER 900 GT', 'XMAX 250'], index=None)
+                                                   'LANDER CONNECTED', 'MT 03', 'MT 07', 'MT 09', 'NMAX 160 CONNECTED', 'NEOS', 'R 3 ABS','R 15 ABS', 'TRACER 900 GT', 'XMAX 250'], index=None)
     if motos == 'CROSSER 150':
         DATA_URL = (
             'https://www.yamaha-motor.com.br/file/v6985822204182688206/products/lateral-carenagem-todoterreno-crosserz-150-abs-30131-fx01-img-01-v01-desk.png')
