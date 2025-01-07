@@ -6,8 +6,8 @@ import time
 # st.sidebar.video('C:/Users/user/Desktop/Art_Stream/Post_Eli_Atualizado.mp4', autoplay= True, loop= True)
 
 # container1= st.container(border= True, height= 100)
-st.logo('images\icon_question.png')
-st.sidebar.image('images\eli.jpg', caption='Eliane Ferreira')
+st.logo('images/icon_question.png')
+st.sidebar.image('images/eli.jpg', caption='Eliane Ferreira')
 st.header('Ajudarei voçe a esclarecer todas as suas duvidas! 👍')
 
 st.header('Perguntas frequentes', divider=True)
