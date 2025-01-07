@@ -7,7 +7,7 @@ import time
 
 # container1= st.container(border= True, height= 100)
 st.logo('images/icon_question.png')
-st.sidebar.image('images/eli.jpg', caption='Eliane Ferreira')
+st.sidebar.image('eli.png', caption='Eliane Ferreira')
 st.header('Ajudarei voçe a esclarecer todas as suas duvidas! 👍')
 
 st.header('Perguntas frequentes', divider=True)
