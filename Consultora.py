@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.logo('images\icon_home.png')
-st.sidebar.image('images\eli.jpg', caption='Eliane Ferreira')
+st.logo('icon_home.png')
+st.sidebar.image('eli.jpg', caption='Eliane Ferreira')
 st.header('Especialista em Motos Yamaha')
 st.subheader("Eliane, a sua consultora de confiança no mundo Yamaha.")
 st.markdown('''Com mais de 15 anos de experiência, Eliane se destaca no mercado como uma especialista em atendimento ao cliente, com foco em motocicletas Yamaha 0km, produtos náuticos Yamaha e seminovos multimarcas. Sua paixão por motos e sua habilidade em construir relacionamentos duradouros a tornam a profissional ideal para te auxiliar na escolha da sua próxima aventura sobre duas rodas.''')
