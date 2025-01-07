@@ -10,8 +10,8 @@ st.subheader('👈 Selecione uma das opções no menu lateral', divider=True)
 # st.toggle('ATIVAR')
 
 def moto():
-    motos = st.sidebar.radio('Modelos disponiveis', ['CROSSER 150', 'FACTOR 150', 'FZ 15', 'FZ 25 CONNECTED',
-                                                   'LANDER CONNECTED', 'MT 07', 'MT 09', 'NMAX 160 CONNECTED', 'NEOS','R 15 ABS', 'TRACER 900 GT', 'XMAX 250'], index=None)
+    motos = st.sidebar.radio('Modelos disponiveis', ['CROSSER 150', 'FACTOR 150', 'FZ 15 CONNECTED', 'FZ 25 CONNECTED',
+                                                   'LANDER CONNECTED', 'MT 07', 'MT 09', 'NMAX 160 CONNECTED', 'NEOS', 'R 3 ABS','R 15 ABS', 'TRACER 900 GT', 'XMAX 250'], index=None)
     if motos == 'CROSSER 150':
         DATA_URL = (
             'https://www.yamaha-motor.com.br/file/v6985822204182688206/products/lateral-carenagem-todoterreno-crosserz-150-abs-30131-fx01-img-01-v01-desk.png')
@@ -38,9 +38,9 @@ def moto():
             \nA Factor 150 é uma excelente opção para quem busca uma moto econômica, prática e confiável para o dia a dia. A moto também é uma boa escolha para iniciantes, graças à sua posição de pilotagem confortável e fácil manobrabilidade.\n
             \nEm resumo:\n
             \nA Yamaha Factor 150 2025 é uma excelente opção para quem busca uma motocicleta versátil, econômica e com um design moderno. Com suas diversas melhorias, a moto promete continuar sendo um sucesso de vendas no mercado brasileiro.''')
-    elif motos == 'FZ 15':
+    elif motos == 'FZ 15 CONNECTED':
         DATA_URL = (
-            'https://www.yamaha-motor.com.br/file/v2578731939233119139/products/30062-urbano-fazer-150-abs-faixa01-desktop-v3-yamaha.jpg')
+            'https://www.yamaha-motor.com.br/file/v267926292075367768/products/lateral-urbano-fazer-fz15-150-abs-30128-fx01-img-01-v02-desk.png')
         st.image(DATA_URL)
         st.markdown('''A Yamaha FZ15 2025 chegou ao mercado com um visual completamente repaginado, mantendo a essência esportiva que a caracteriza. A moto recebeu um novo conjunto óptico com faróis de LED, além de um design mais agressivo e moderno.\n
             \nPrincipais novidades:\n
@@ -107,6 +107,12 @@ def moto():
             \nConforto e Ergonomia
             \nA posição de pilotagem da Lander Connected é confortável e ergonômica, permitindo longas jornadas sem fadiga. O assento é largo e macio, proporcionando maior conforto ao piloto e ao garupa.
             \nEm resumo, a Yamaha Lander Connected 2025 é uma moto completa e versátil, ideal para quem busca aventura e tecnologia. Com seu design moderno, motor potente, conectividade inteligente e suspensões robustas, a Lander Connected é a companheira perfeita para suas expedições.''')
+    elif motos == 'MT 03':
+        DATA_URL = ('https://www.yamaha-motor.com.br/file/v8175103964778769023/products/lateral-mtseries-mt03-321-abs-30118-fx01-img-01-v02-desktop.jpg')
+        st.image(DATA_URL)
+        st.markdown('''O conceito “Touro de Aço” foi a inspiração da nova MT-03.
+            \nA Líder da categoria possui freios ABS de série nas duas rodas em sua nova versão. Com seu motor bicilíndrico de 321 cc e potência de 42 cv, essa motocicleta é a melhor opção para quem deseja uma moto Leve e Ágil na cidade e um mix de Perfomance e Estabilidade que surpreendem nas estradas.
+            \nSeu Desing é único, característico da Série MT. Sua luz de posição em LED mantém toda a sua agressividade e modernidade à noite. Além disso ela conta com 4 Anos de Garantia e Revisão Preço Fixo. Venha conhecer uma de perto!''')
     elif motos == 'MT 07':
         DATA_URL = (
             'https://www.yamaha-motor.com.br/file/v972548829457220531/products/lateral-mtseries-mt07-321-abs-30119-fx01-img-01-v02-desktop.jpg')
@@ -155,6 +161,12 @@ def moto():
             \nTempo de recarga da bateria
             \nDisponibilidade de pontos de recarga
             \nSe você está buscando uma moto elétrica para o dia a dia, a Yamaha Neo's 2025 é uma excelente opção a ser considerada.''')
+    elif motos == 'R 3 ABS':
+        DATA_URL = ('https://www.yamaha-motor.com.br/file/v8053955512855454416/general/premiacao-supersport-r3-321-abs-30109-fx08-img-01-v03.jpg')
+        st.image(DATA_URL)
+        st.markdown('''Dentro do mais puro conceito racing, a Yamaha YZF R3 ABS foi feita para quem gosta de esportividade. Muita coisa nela lembra as motos de corrida, como os semiguidões baixos, a carenagem integral e o banco bipartido separado do garupa.
+            \nPelas suas características claramente esportivas, não é tão simples pilotá-la no uso urbano, principalmente pelo pouco esterçamento dos semiguidões, assim como pelos espelhos retrovisores colocados na carenagem.
+            \nPor outro lado, ela é baixa (780 mm) e leve (170 kg), o que facilita a condução de quem tem menos de 1,70 m. ''')
     elif motos == 'R 15 ABS':
         DATA_URL = ('https://www.yamaha-motor.com.br/file/v8455595307359693098/products/lateral-supersport-r15-abs-30133-fx01-img-01-v02-desktop.jpg')
         st.image(DATA_URL)
