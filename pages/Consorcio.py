@@ -1,8 +1,8 @@
 import streamlit as st
 from selenium import webdriver
 
-st.logo('images\icon-forms.png')
-st.sidebar.image('images\eli.jpg', caption='Eliane Ferreira')
+st.logo('images/icon-forms.png')
+st.sidebar.image('eli.png', caption='Eliane Ferreira')
 # st.image('images\carmo.png', width=200)
 # st.image('images\mymoto.jpg')
 # navegador = webdriver.Chrome()
