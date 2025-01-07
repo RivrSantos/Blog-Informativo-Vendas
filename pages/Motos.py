@@ -4,8 +4,8 @@ from selenium import webdriver
 import time
 
 
-st.logo('images\icon_menu.png')
-st.sidebar.image('images\eli.jpg', caption='Eliane Ferreira')
+st.logo('images/icon_menu.png')
+st.sidebar.image('images/eli.jpg', caption='Eliane Ferreira')
 st.header('CONHEÇA MAIS SOBRE NOSSOS PRODUTOS', divider=True)
 # st.toggle('ATIVAR')
 
