@@ -6,12 +6,12 @@ import time
 
 st.logo('images/icon_menu.png')
 # st.sidebar.image('eli.png', caption='Eliane Ferreira')
-st.subheader('Escolha uma das opçoes no menu lateral', divider=True)
+st.subheader('👈 Selecione uma das opções no menu lateral', divider=True)
 # st.toggle('ATIVAR')
 
 def moto():
     motos = st.sidebar.radio('Modelos disponiveis', ['CROSSER 150', 'FACTOR 150', 'FZ 15', 'FZ 25 CONNECTED',
-                                                   'LANDER CONNECTED', 'MT 07', 'MT 09', 'NMAX 160 CONNECTED', 'NEOS', 'TRACER 900 GT', 'XMAX 250'], index=None)
+                                                   'LANDER CONNECTED', 'MT 07', 'MT 09', 'NMAX 160 CONNECTED', 'NEOS','R 15 ABS', 'TRACER 900 GT', 'XMAX 250'], index=None)
     if motos == 'CROSSER 150':
         DATA_URL = (
             'https://www.yamaha-motor.com.br/file/v6985822204182688206/products/lateral-carenagem-todoterreno-crosserz-150-abs-30131-fx01-img-01-v01-desk.png')
@@ -155,10 +155,18 @@ def moto():
             \nTempo de recarga da bateria
             \nDisponibilidade de pontos de recarga
             \nSe você está buscando uma moto elétrica para o dia a dia, a Yamaha Neo's 2025 é uma excelente opção a ser considerada.''')
+    elif motos == 'R 15 ABS':
+        DATA_URL = ('https://www.yamaha-motor.com.br/file/v8455595307359693098/products/lateral-supersport-r15-abs-30133-fx01-img-01-v02-desktop.jpg')
+        st.image(DATA_URL)
+        st.markdown('''A R15 ABS foi eleita a Melhor Moto do Brasil na categoria City, na premiação concedida em 2024 pela Revista Motociclismo.
+            \nEsse reconhecimento é fruto da confiança e do voto de consumidores apaixonados, que inspiram a YAMAHA a superar desafios continuamente.
+            \nSeu design foi inspirado nas superesportivas de maior cilindrada da Yamaha. Com faróis em LED, a carenagem dianteira traz uma entrada de ar em forma de M, semelhante à YZR-M1, moto da marca na MotoGP. Lanterna em LED e painel totalmente digital completam os diferenciais da mini esportiva japonesa.''')
     elif motos == 'TRACER 900 GT':
         DATA_URL = ('https://www.yamaha-motor.com.br/file/v7957540279432677006/products/carenagem-esquerda-sporttouring-tracer-900-30122-fx01-img-01-v01-desk.jpg')
         st.image(DATA_URL)
-        st.markdown('')
+        st.markdown('''A Nova Tracer 900 GT veio totalmente reformulada: arrojada, imponente, sofisticada e esportiva.
+            \nEquipada com itens de tecnologia como Piloto Automático, Controle de Tração, Sistema Quick Shift, D-Mode, Embreagem Assistida e Deslizante. Essa moto, que se destaca nas estradas e viagens a longa distância, agora conta com um Guidão mais estreito, um amplo Para-Brisa, Assentos mais confortáveis e Pedaleiras e Alças do Garupa reposicionadas, novas Suspensões Dianteira e Traseira e muito mais! Esse modelo é o mais leve e potente da categoria, e ainda conta com Farol Duplo e Lanterna Traseira em LED e seu Painel Completo em TFT.
+            \nSe aventure com a Nova Tracer 900 GT!''')
     elif motos == 'XMAX 250':
         DATA_URL = (
             'https://www.yamaha-motor.com.br/file/v8034493036967814121/products/lateral-scooter-xmax-160-abs-30123-fx01-img-01-v01-desk.png')
