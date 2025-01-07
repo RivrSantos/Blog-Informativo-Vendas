@@ -16,6 +16,6 @@ st.markdown('''Experiência: Mais de 15 anos de experiência no mercado de venda
         \nAtendimento personalizado: Soluções sob medida para cada cliente.\n
         \nPós-venda completo: Suporte completo após a venda.\n''')
 st.info('🚨. Entre em contato com a Eliane e descubra a moto perfeita para você!')
-st.link_button(label= 'Fale comigo!', url='https://www.instagram.com/eliane_yamaha?utm_source=qr&igsh=MTBtOWpsaG15ZTIwMA==', type='primary')
+st.link_button(label= 'Fale comigo!', url='https://wa.me/message/P2RUEPY7L3C4B1', type='primary')
 
 st.markdown('#CarmoMotosYamaha #Yamaha #Motocicletas #Náutica #AtendimentoPersonalizado #SuaAventuraComeçaAqui')
