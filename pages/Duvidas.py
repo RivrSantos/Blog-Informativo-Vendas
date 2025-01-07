@@ -33,7 +33,7 @@ with st.popover("Qual a localizaçao da concessionaria"):
         initial_view_state=pdk.ViewState(
             latitude=-16.69641120149624,
             longitude=-43.81215144729478,
-            zoom=11,
+            zoom=20,
             pitch=50,
         ),
         layers=[
@@ -42,7 +42,7 @@ with st.popover("Qual a localizaçao da concessionaria"):
                 data=df,
                 get_position='[lon, lat]',
                 radius=100,
-                elevation_scale=4,
+                elevation_scale=6,
                 elevation_range=[0, 1000],
                 extruded=True,
             ),
