@@ -2,8 +2,8 @@ import streamlit as st
 from selenium import webdriver
 
 
-st.logo('images\icon_finan.png')
-st.sidebar.image('images\eli.jpg', caption='Eliane Ferreira')
+st.logo('images/icon_finan.png')
+st.sidebar.image('eli.png', caption='Eliane Ferreira')
 # @st.dialog("Cast your vote")
 # def vote(item):
 #     st.write(f"Why is {item} your favorite?")
