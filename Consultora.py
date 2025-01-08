@@ -17,5 +17,9 @@ st.markdown('''Experiência: Mais de 15 anos de experiência no mercado de venda
         \nPós-venda completo: Suporte completo após a venda.\n''')
 st.info('🚨. Entre em contato com Eliane e descubra a moto perfeita para você!')
 st.link_button(label= 'Fale comigo!', url='https://wa.me/message/P2RUEPY7L3C4B1', type='primary')
-
 st.markdown('#CarmoMotosYamaha #Yamaha #Motocicletas #Náutica #AtendimentoPersonalizado #SuaAventuraComeçaAqui')
+st.divider()
+st.sidebar.markdown('AVALIAR ATENDIMENTO')
+avaliar = st.sidebar.feedback('thumbs')
+if avaliar == True:
+        st.sidebar.sucess('Agradecemos sua visita!')
