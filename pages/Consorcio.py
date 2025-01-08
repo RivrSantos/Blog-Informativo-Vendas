@@ -2,14 +2,7 @@ import streamlit as st
 from selenium import webdriver
 
 st.logo('images/icon-forms.png')
-st.sidebar.image('eli.png', caption='Eliane Ferreira')
-# st.image('images\carmo.png', width=200)
-# st.image('images\mymoto.jpg')
-# navegador = webdriver.Chrome()
-# navegador.get('')
-# navegador.get(
-#     'https://www.motoo.com.br/yamaha-crosser-150-2025-lancamento-oficial-preco-fotos/')
-# tabela = navegador.find_elements('//*[@id="wrap"]/table[2]')
+
 st.markdown('''Como funciona o Consórcio Nacional Yamaha
         \nEscolha do plano: Ao aderir ao Consórcio Yamaha, você escolhe o valor da carta de crédito que deseja e a quantidade de parcelas que cabe no seu bolso.
         \nFormação do grupo: Você será inserido em um grupo de pessoas com objetivos semelhantes.
