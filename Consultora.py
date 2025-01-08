@@ -22,6 +22,6 @@ st.divider()
 st.markdown('AVALIE MEU ATENDIMENTO')
 avaliar = st.feedback('thumbs')
 if avaliar == True:
-        st.sucess('Fico muito feliz com o seu feedback positivo. Obrigado pela confiança!')
+        st.info('Fico muito feliz com o seu feedback positivo. Obrigado pela confiança!')
 elif avaliar == False:
-        st.sucess('Agradecemos sua visita, foi um prazer atende-lo!')
+        st.info('Agradecemos sua visita, foi um prazer atende-lo!')
