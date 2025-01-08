@@ -19,7 +19,7 @@ st.info('🚨. Entre em contato com Eliane e descubra a moto perfeita para você
 st.link_button(label= 'Fale comigo!', url='https://wa.me/message/P2RUEPY7L3C4B1', type='primary')
 st.markdown('#CarmoMotosYamaha #Yamaha #Motocicletas #Náutica #AtendimentoPersonalizado #SuaAventuraComeçaAqui')
 st.divider()
-st.sidebar.markdown('AVALIE MEU ATENDIMENTO')
+st.markdown('AVALIE MEU ATENDIMENTO')
 avaliar = st.feedback('thumbs')
 if avaliar == True:
         st.sucess('Fico muito feliz com o seu feedback positivo. Obrigado pela confiança!')
