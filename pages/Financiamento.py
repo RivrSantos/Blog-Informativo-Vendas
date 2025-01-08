@@ -3,7 +3,6 @@ from selenium import webdriver
 
 
 st.logo('images/icon_finan.png')
-st.sidebar.image('eli.png', caption='Eliane Ferreira')
 # @st.dialog("Cast your vote")
 # def vote(item):
 #     st.write(f"Why is {item} your favorite?")
@@ -14,12 +13,9 @@ st.sidebar.image('eli.png', caption='Eliane Ferreira')
 # st.table('tb1')
 # navegador = webdriver.Chrome()
 # navegador.get('')
-# navegador.get(
-#     'https://www.motoo.com.br/yamaha-crosser-150-2025-lancamento-oficial-preco-fotos/')
-#
 
 # cont= st.container(border= True, height= 700)
-# cont.subheader('NOME')
+
 # cont.text_area(label= 'Noe')
 st.subheader('APOS PRRENCHER O FORMULARIO CLIQUE NO BOTAO "ENVIAR"')
 with st.form(key='send', clear_on_submit= True):
