@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.logo('images/icon_home.png')
+st.logo('carmo.png')
 st.image('eli.png')
 st.header('Especialista em Motos Yamaha')
 st.subheader("Eliane, a sua consultora de confiança no mundo Yamaha.")
