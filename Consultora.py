@@ -2,7 +2,7 @@ import streamlit as st
 
 st.logo('carmo.png')
 # st.header('Especialista em Motos Yamaha', divider= True)
-st.video('eliv.mp4', autoplay= True)
+st.image('elip.png')
 st.subheader("Seja bem vindo(a) ao mundo Yamaha.", divider= True)
 st.markdown('''Com mais de 15 anos de experiência, Eliane se destaca no mercado como uma especialista em atendimento, além de se destacar pela empatia, simpatia, entusiasmo, persistência e atenção com foco no cliente. Sua paixão por motos e sua habilidade em construir relacionamentos duradouros a tornam a profissional ideal para te auxiliar na escolha da sua próxima aventura sobre duas rodas.''')
 st.subheader('Aqui ofereço:')
@@ -25,3 +25,8 @@ if avaliar == True:
         st.info('Fico muito feliz com o seu feedback positivo. Obrigado pela confiança!')
 elif avaliar == False:
         st.info('Agradecemos sua visita, foi um prazer atende-lo!')
+st.sidebar.subheader('NOVIDADE', divider= True)
+bt= st.sidebar.button('LIBERACRED')
+if bt == True:
+        st.sidebar.video('vdlib.mp4', autoplay= True)
+        
