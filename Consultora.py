@@ -4,6 +4,7 @@ st.logo('carmo.png')
 # st.header('Especialista em Motos Yamaha', divider= True)
 st.image('elip.png')
 st.subheader("Seja bem vindo(a) ao mundo Yamaha.", divider= True)
+st.info('Acesse o menu lateral clicando na setinha no canto superior esquerdo da sua tela')
 st.markdown('''Com mais de 15 anos de experiência, Eliane se destaca no mercado como uma especialista em atendimento, além de se destacar pela empatia, simpatia, entusiasmo, persistência e atenção com foco no cliente. Sua paixão por motos e sua habilidade em construir relacionamentos duradouros a tornam a profissional ideal para te auxiliar na escolha da sua próxima aventura sobre duas rodas.''')
 st.subheader('Aqui ofereço:')
 st.markdown('''Conhecimento profundo: Eliane domina as características técnicas de toda a linha Yamaha, desde as motos mais populares até os modelos mais sofisticados.\n
