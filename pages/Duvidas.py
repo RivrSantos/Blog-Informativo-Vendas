@@ -4,7 +4,7 @@ import pydeck as pdk
 import time
 
 st.logo('images/icon_question.png')
-st.header('Ajudarei voçe a esclarecer todas as suas duvidas! 👍')
+st.header('Ajudarei você a esclarecer todas as suas duvidas! 👍')
 
 st.header('Perguntas frequentes', divider=True)
 with st.popover("Como funciona o financiamento?"):
