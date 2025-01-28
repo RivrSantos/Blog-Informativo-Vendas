@@ -6,11 +6,11 @@ import time
 
 st.logo('images/icon_menu.png')
 # st.sidebar.image('eli.png', caption='Eliane Ferreira')
-st.subheader('👈 Selecione uma das opções no menu lateral', divider=True)
+st.subheader('Selecione uma das opções abaixo', divider=True)
 # st.toggle('ATIVAR')
 
 def moto():
-    motos = st.sidebar.radio('Modelos disponiveis', ['CROSSER 150', 'FACTOR 150', 'FZ 15 CONNECTED', 'FZ 25 CONNECTED',
+    motos = st.radio('Modelos disponiveis', ['CROSSER 150', 'FACTOR 150', 'FZ 15 CONNECTED', 'FZ 25 CONNECTED',
                                                    'LANDER CONNECTED', 'MT 03', 'MT 07', 'MT 09', 'NMAX 160 CONNECTED', 'NEOS', 'R 3 ABS','R 15 ABS', 'TRACER 900 GT', 'XMAX 250'], index=None)
     if motos == 'CROSSER 150':
         DATA_URL = (
