@@ -6,12 +6,12 @@ import time
 
 st.logo('images/icon_menu.png')
 # st.sidebar.image('eli.png', caption='Eliane Ferreira')
-st.subheader('Selecione uma das opções abaixo', divider=True)
-# st.toggle('ATIVAR')
+st.header('Selecione uma das opções abaixo', divider=True)
+st.sidebar.video('vdeli.mp4')
 
 def moto():
-    motos = st.radio('Modelos disponiveis', ['CROSSER 150', 'FACTOR 150', 'FZ 15 CONNECTED', 'FZ 25 CONNECTED',
-                                                   'LANDER CONNECTED', 'MT 03', 'MT 07', 'MT 09', 'NMAX 160 CONNECTED', 'NEOS', 'R 3 ABS','R 15 ABS', 'TRACER 900 GT', 'XMAX 250'], index=None)
+    motos = st.selectbox('Modelos disponiveis', ('CROSSER 150', 'FACTOR 150', 'FZ 15 CONNECTED', 'FZ 25 CONNECTED',
+                                                   'LANDER CONNECTED', 'MT 03', 'MT 07', 'MT 09', 'NMAX 160 CONNECTED', 'NEOS', 'R 3 ABS','R 15 ABS', 'TRACER 900 GT', 'XMAX 250'),)
     if motos == 'CROSSER 150':
         DATA_URL = (
             'https://www.yamaha-motor.com.br/file/v6985822204182688206/products/lateral-carenagem-todoterreno-crosserz-150-abs-30131-fx01-img-01-v01-desk.png')
