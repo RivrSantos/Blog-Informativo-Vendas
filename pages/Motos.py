@@ -7,7 +7,7 @@ import time
 st.logo('images/icon_menu.png')
 # st.sidebar.image('eli.png', caption='Eliane Ferreira')
 st.header('Selecione uma das opções abaixo', divider=True)
-st.sidebar.video('vdeli.mp4')
+st.sidebar.video('vdlib.mp4')
 
 def moto():
     motos = st.selectbox('Modelos disponiveis', ('CROSSER 150', 'FACTOR 150', 'FZ 15 CONNECTED', 'FZ 25 CONNECTED',
